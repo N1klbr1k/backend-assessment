@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+    "name": "fireball",
+    "details": "creates a fireball at a point within range",
+    "level": 3
+},
+{
+    "id": 2,
+    "name":"shield",
+    "details":"creates a magical shield of protection",
+    "level":1
+},
+{
+    "id":3,
+    "name":"polymorph",
+    "details":"changes a creature into a beast",
+    "level":4
+},
+{
+    "id":4,
+    "name":"heal",
+    "details":"Heals a creature completely",
+    "level":6
+},
+{
+    "id":5,
+    "name":"fly",
+    "details":"allows a creature to fly",
+    "level":3
+}
+]

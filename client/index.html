@@ -3,8 +3,40 @@
   <head>
     <title>Back End Assessment</title>
   </head>
-  <body class="container">
+  <body >
     <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <section id="section2" >
+       <select>
+         <option value="1">fireball</option>
+         <option value="2">shield</option>
+         <option value="3">polymorph</option>
+         <option value="4">heal</option>
+         <option value="5">fly</option>
+       </select>
+       <div>
+         <h2>Create Custom Spell</h2>
+       <form id="addCustSpell">
+         <input id="spellName" type="text" placeholder="spell name here">
+         <input id="spellDeets" type="text" placeholder="spell details here">
+       
+       <p>spell level</p>
+          <select id="spellLevel">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <opttion value="3">3</opttion>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option> 
+          </select>
+          <button id="addSpell">add spell</button>
+       </form>
+      </div>
+      <section id="spellcontainer"></section>
+    </section>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./main.js">  
